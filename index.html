@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/styles.css">
+    <!-- this is styelsheet for the emoji -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.css" /> -->
+</head>
+
+<body>
+
+    <section class="chat_section">
+        <div class="brand">
+            <img height="40" src="/img.png" alt="">
+            <h1>Group chat</h1>
+        </div>
+
+        <div class="message_area">
+            <!-- <div class="message incomeing">
+                <p>
+                    <h4>Ankit</h4>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A?</p>
+            </div>-->
+
+            <!-- <div class="notice"> -->
+                <!-- <p class="notice">Lorem joined the chat.</p> -->
+            <!-- </div> -->
+        </div>
+
+        <div class="msgbox">
+            <div class="msgTypingArea">
+                <textarea id="textarea" placeholder="Message" cols="30" rows="1"></textarea>
+            </div>
+            <button type="button" class="sendButton">
+                <img src="send.png" alt="" class="sendbtn">
+            </button>
+        </div>
+
+    </section>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js" defer></script>
+</body>
+
+</html>
